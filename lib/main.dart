@@ -16,7 +16,11 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           backgroundColor: Colors.pink,
           centerTitle: true,
-          title: Text('Get Test'),
+          title: Text(
+            'Get',
+            style: TextStyle(
+                fontSize: 30, fontWeight: FontWeight.bold, color: Colors.white),
+          ),
         ),
       ),
     );
